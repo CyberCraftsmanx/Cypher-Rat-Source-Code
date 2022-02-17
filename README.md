@@ -43,8 +43,11 @@ Images :
 ![33](https://user-images.githubusercontent.com/54191699/154522444-793a7def-86fa-4529-8962-08937ec05de2.png)
 
 --------------
-YT : Comming soon.
-Download From : https://t.me/EvLFDev
+
+**Watch On YouTube** : Comming soon.
+
+**Download From** : https://t.me/EvLFDev
+
 --------------
 
 This project is licensed under the MIT License - see the LICENSE file for details
