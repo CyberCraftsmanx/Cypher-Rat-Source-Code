@@ -44,7 +44,7 @@ Images :
 
 --------------
 YT : Comming soon.
-Download Link : Comming soon.
+Download From : https://t.me/EvLFDev
 --------------
 
 This project is licensed under the MIT License - see the LICENSE file for details
