@@ -26,8 +26,8 @@ Apk features :
 Images : 
 
 ![Untitled](https://user-images.githubusercontent.com/54191699/154522190-89317b03-ff03-4558-9b7f-8c8e5e026728.png)
-![33](https://user-images.githubusercontent.com/54191699/154522248-7a67548e-2dbb-472d-94c5-f15c98055a5a.png)
 ![22](https://user-images.githubusercontent.com/54191699/154522261-deede150-ae0f-4a8b-9f11-ad889c326f90.png)
+![33](https://user-images.githubusercontent.com/54191699/154522444-793a7def-86fa-4529-8962-08937ec05de2.png)
 
 --------------
 YT : Comming soon.
