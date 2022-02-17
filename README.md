@@ -8,9 +8,13 @@ Cypher Rat Full Version - Advanced Android Remote Tool 2022
 
 --------------
 Available features :
+
 -> Manager : Files , Sms , Contacts , Calls , Accounts ,Apps
+
 -> Monitor : Live screen , Live Camera , online/offline Keylogger , Live Microphone , Live Location
+
 -> Tools : Call Number , Download/install Apk , Show Toast , Get/Set Clipboard , Open Link in Browser , Run Shell Commands
+
 -> Extra : Social Media Hunter , Notifications Monitor , Get Phone info .
 
 --------------
