@@ -5,7 +5,7 @@ Cypher Rat is Advanced Android Remote Administration Tool
 With Cypher Rat You can remote and Manage your android phone
 easily from windows
 
-**HOW TO RREMOTE/CONTROL ANDROID FORM WINDOWS**
+**HOW TO REMOTE/CONTROL ANDROID FORM WINDOWS**
 
 -------------------------
 
