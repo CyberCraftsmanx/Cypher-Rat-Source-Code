@@ -58,4 +58,4 @@ Android rat 2022
 cypher rat full version
 --------------
 
-This project is licensed under the MIT License - see the LICENSE file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/EVLF/Cypher-Rat-Full/blob/main/LICENSE) file for details
