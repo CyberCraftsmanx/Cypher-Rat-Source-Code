@@ -1,6 +1,12 @@
 # Cypher-Rat-Full
 Cypher Rat Full Version - Advanced Android Remote Tool 2022
 
+Cypher Rat is Advanced Android Remote Administration Tool
+With Cypher Rat You can remote and Manage your android phone
+easily from windows
+
+**HOW TO RREMOTE/CONTROL ANDROID FORM WINDOWS**
+
 -------------------------
 
 **Warning** !!  
