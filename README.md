@@ -55,7 +55,7 @@ Apk features :
 
 2 : Bind With apk
 
-3 : Fake Apk : Create A fake apk using and website
+3 : Fake Apk : Create A fake apk using any website
 
 4 : custom notification 
 
@@ -99,12 +99,19 @@ XMR: 872Weh1x7D5iwSeJXfWXEgToksFP9pxMgG8n9cH1g1jhWa29WD5DHBpi5am4D3L7t35ytyn8dMH
 --------------
 
 #cypher_rat
+
 #Cypher_rat_v3
+
 #cypher_Rat_by_evlf
+
 cypher rat v3
+
 cypher rat
+
 cypher rat 2022
+
 Android rat v3 2022
+
 cypher rat full version
 
 --------------
