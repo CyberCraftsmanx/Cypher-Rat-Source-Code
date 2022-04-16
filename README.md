@@ -23,10 +23,15 @@ you are the only responsible for any kind of use of this tool , the developer is
 
 -ADD Cypher Rat injector : cypher jector allows you to inject Any real apk with cypher payload .
 -Login stuck fixed
+
 -No VMWARE
+
 -No RDP
+
 -No VNC
+
 -THIS RAT is FREE - NOT FOR SELL
+
 -Warning this version clients will only work with this version
 
 --------------
