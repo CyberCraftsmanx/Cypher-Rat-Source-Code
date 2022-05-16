@@ -98,6 +98,8 @@ Rar Password: t.me/EvLFDev
 
 XMR: 872Weh1x7D5iwSeJXfWXEgToksFP9pxMgG8n9cH1g1jhWa29WD5DHBpi5am4D3L7t35ytyn8dMHbgQUwvAv3yZr9SPxeCHc
 
+BTC: 3MxGH1iN5pkmRJnHVrUb1FiiwEvkrWBSUt
+
 [YOUTUBE](https://www.youtube.com/channel/UC-k_KeCkQ6RYm0GFoLfd7Cw)
 
 --------------
