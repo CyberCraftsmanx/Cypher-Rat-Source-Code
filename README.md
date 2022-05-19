@@ -24,13 +24,21 @@ you are the only responsible for any kind of use of this tool , the developer is
 **UPDATE 5/19/2022** !!  NEW 
 
 1- Can Run on RDP or Virtual Machine
+
 2- Fix Stuck on builder
+
 3- Fix File Manager
+
 4- update stub to stable one
+
 5- update plugins 
+
 6- Accept any cypher rat clients
+
 7- Super mode (accessibility) optional
+
 8- Fake App Work on All android version
+
 9- phone info Work on All android version
 
 --------------
@@ -83,13 +91,13 @@ Apk features :
 
 Images : 
 
-![Untitled](https://user-images.githubusercontent.com/54191699/154522190-89317b03-ff03-4558-9b7f-8c8e5e026728.png  | width=100)
+![Untitled](https://user-images.githubusercontent.com/54191699/154522190-89317b03-ff03-4558-9b7f-8c8e5e026728.png )
 
-![22](https://user-images.githubusercontent.com/54191699/154522261-deede150-ae0f-4a8b-9f11-ad889c326f90.png  | width=100)
+![22](https://user-images.githubusercontent.com/54191699/154522261-deede150-ae0f-4a8b-9f11-ad889c326f90.png)
 
-![33](https://user-images.githubusercontent.com/54191699/154522444-793a7def-86fa-4529-8962-08937ec05de2.png  | width=100)
+![33](https://user-images.githubusercontent.com/54191699/154522444-793a7def-86fa-4529-8962-08937ec05de2.png)
 
-![sss](https://user-images.githubusercontent.com/54191699/163656673-1101c7a5-2db9-4948-bb0e-2059d6f51b76.png  | width=100)
+![sss](https://user-images.githubusercontent.com/54191699/163656673-1101c7a5-2db9-4948-bb0e-2059d6f51b76.png)
 
 
 --------------
@@ -116,24 +124,32 @@ BTC: 3MxGH1iN5pkmRJnHVrUb1FiiwEvkrWBSUt
 
 [YOUTUBE](https://www.youtube.com/channel/UC-k_KeCkQ6RYm0GFoLfd7Cw)
 
---------------
-
-#cypher_rat
-
-#Cypher_rat_v3
-
-#cypher_Rat_by_evlf
-
-cypher rat v3
-
-cypher rat
-
-cypher rat 2022
-
-Android rat v3 2022
-
-cypher rat full version
 
 --------------
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/EVLF/Cypher-Rat-Full/blob/main/LICENSE) file for details
+
+
+
+
+
+#cypher_rat,
+#Cypher_rat_v3,
+#cypher_Rat_by_evlf,
+cypher rat v3,
+cypher rat,
+cypher rat 2022,
+Android rat v3 2022,
+cypher rat full version,
+cypher rat v5,
+cypherrat,
+android rat,
+rat android,
+android vnc,
+android remote,
+android control,
+android monitor,
+mspy,
+spynote,
+spymax,
+mobihok,
