@@ -1,0 +1,623 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{60020E6E-10AC-467F-9AD0-1622C8BAABD9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>AngelAndroid_v2.My.MyApplication</StartupObject>
+    <RootNamespace>AngelAndroid_v2</RootNamespace>
+    <AssemblyName>CypherRat</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>CypherRat.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>CypherRat.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationIcon>cylogo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MetroSet UI, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroSet_UI.2.0.0\lib\net45\MetroSet UI.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio">
+      <HintPath>bin\Release\NAudio.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.IO.Compression.ZipFile, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Compression.ZipFile.4.3.0\lib\net46\System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="WinMM.Net, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\WinMM.Net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Codes\clsComputerInfo.vb" />
+    <Compile Include="Codes\ResizeableControl.vb" />
+    <Compile Include="Codes\ZoomPictureBox.Designer.vb">
+      <DependentUpon>ZoomPictureBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Codes\ZoomPictureBox.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Froms\About.Designer.vb">
+      <DependentUpon>About.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\About.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\AccountManager.Designer.vb">
+      <DependentUpon>AccountManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\AccountManager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\AddNumber.Designer.vb">
+      <DependentUpon>AddNumber.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\AddNumber.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\CHECKER.Designer.vb">
+      <DependentUpon>CHECKER.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\CHECKER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\CypherRat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\CypherRat.Designer.vb">
+      <DependentUpon>CypherRat.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\Applications.Designer.vb">
+      <DependentUpon>Applications.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\Applications.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\AppsProperties.Designer.vb">
+      <DependentUpon>AppsProperties.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\AppsProperties.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\Build.Designer.vb">
+      <DependentUpon>Build.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\Build.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\CallPhone.Designer.vb">
+      <DependentUpon>CallPhone.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\CallPhone.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\CallsManager.Designer.vb">
+      <DependentUpon>CallsManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\CallsManager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\CameraManager.Designer.vb">
+      <DependentUpon>CameraManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\CameraManager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\ClipboardManager.Designer.vb">
+      <DependentUpon>ClipboardManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\ClipboardManager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Codes\Codes.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Froms\Color_Box0.Designer.vb">
+      <DependentUpon>Color_Box0.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\Color_Box0.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\ContactsManager.Designer.vb">
+      <DependentUpon>ContactsManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\ContactsManager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\CypherSettings.Designer.vb">
+      <DependentUpon>CypherSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\CypherSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\Dialog1.Designer.vb">
+      <DependentUpon>Dialog1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\Dialog1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\DialogPloice.Designer.vb">
+      <DependentUpon>DialogPloice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\DialogPloice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\Download.Designer.vb">
+      <DependentUpon>Download.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\Download.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\Editor.Designer.vb">
+      <DependentUpon>Editor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\Editor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\EditSocket.Designer.vb">
+      <DependentUpon>EditSocket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\EditSocket.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\Faker.Designer.vb">
+      <DependentUpon>Faker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\Faker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\FileManager.Designer.vb">
+      <DependentUpon>FileManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\FileManager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\NotifiForm.Designer.vb">
+      <DependentUpon>NotifiForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\NotifiForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\ScreenShoter.Designer.vb">
+      <DependentUpon>ScreenShoter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\ScreenShoter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\SelecteBilder.Designer.vb">
+      <DependentUpon>SelecteBilder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\SelecteBilder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeoIP\GeoIP.vb" />
+    <Compile Include="Froms\Icons.Designer.vb">
+      <DependentUpon>Icons.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\Icons.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\information.Designer.vb">
+      <DependentUpon>information.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\information.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\inp.Designer.vb">
+      <DependentUpon>inp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\inp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\Keylogger.Designer.vb">
+      <DependentUpon>Keylogger.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\Keylogger.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\LocationManager.Designer.vb">
+      <DependentUpon>LocationManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\LocationManager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\Microphone.Designer.vb">
+      <DependentUpon>Microphone.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\Microphone.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\Ports.Designer.vb">
+      <DependentUpon>Ports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\Ports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\Report.Designer.vb">
+      <DependentUpon>Report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\Report.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reso.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Froms\Settings.Designer.vb">
+      <DependentUpon>Settings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\Settings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sockets\SecurityKey.vb" />
+    <Compile Include="Froms\ShellTerminal.Designer.vb">
+      <DependentUpon>ShellTerminal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\ShellTerminal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\SMSManager.Designer.vb">
+      <DependentUpon>SMSManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\SMSManager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sockets\Accept.vb" />
+    <Compile Include="Sockets\Client.vb" />
+    <Compile Include="Sockets\Data.vb" />
+    <Compile Include="Sockets\ListData.vb" />
+    <Compile Include="Froms\TextMessage.Designer.vb">
+      <DependentUpon>TextMessage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\TextMessage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sockets\SyncLocker.vb" />
+    <Compile Include="Theme\ClientCard.Designer.vb">
+      <DependentUpon>ClientCard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Theme\ClientCard.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Theme\PBar.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Theme\RTB.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Theme\ThemeToolStrip.vb" />
+    <Compile Include="Theme\ThemeToolTip.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Froms\Upload.Designer.vb">
+      <DependentUpon>Upload.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\Upload.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Froms\Win_Users.Designer.vb">
+      <DependentUpon>Win_Users.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Froms\Win_Users.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Toggle.Designer.vb">
+      <DependentUpon>Toggle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Toggle.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Froms\About.resx">
+      <DependentUpon>About.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\AccountManager.resx">
+      <DependentUpon>AccountManager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\AddNumber.resx">
+      <DependentUpon>AddNumber.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\CHECKER.resx">
+      <DependentUpon>CHECKER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\CypherRat.resx">
+      <DependentUpon>CypherRat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\Applications.resx">
+      <DependentUpon>Applications.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\AppsProperties.resx">
+      <DependentUpon>AppsProperties.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\Build.resx">
+      <DependentUpon>Build.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\CallPhone.resx">
+      <DependentUpon>CallPhone.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\CallsManager.resx">
+      <DependentUpon>CallsManager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\CameraManager.resx">
+      <DependentUpon>CameraManager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\ClipboardManager.resx">
+      <DependentUpon>ClipboardManager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\Color_Box0.resx">
+      <DependentUpon>Color_Box0.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\ContactsManager.resx">
+      <DependentUpon>ContactsManager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\CypherSettings.resx">
+      <DependentUpon>CypherSettings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\Dialog1.resx">
+      <DependentUpon>Dialog1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\DialogPloice.resx">
+      <DependentUpon>DialogPloice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\Download.resx">
+      <DependentUpon>Download.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\Editor.resx">
+      <DependentUpon>Editor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\EditSocket.resx">
+      <DependentUpon>EditSocket.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\Faker.resx">
+      <DependentUpon>Faker.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\FileManager.resx">
+      <DependentUpon>FileManager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\Icons.resx">
+      <DependentUpon>Icons.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\information.resx">
+      <DependentUpon>information.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\inp.resx">
+      <DependentUpon>inp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\Keylogger.resx">
+      <DependentUpon>Keylogger.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\LocationManager.resx">
+      <DependentUpon>LocationManager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\Microphone.resx">
+      <DependentUpon>Microphone.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\ScreenShoter.resx">
+      <DependentUpon>ScreenShoter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\SelecteBilder.resx">
+      <DependentUpon>SelecteBilder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\Ports.resx">
+      <DependentUpon>Ports.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\Report.resx">
+      <DependentUpon>Report.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\Settings.resx">
+      <DependentUpon>Settings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\ShellTerminal.resx">
+      <DependentUpon>ShellTerminal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\SMSManager.resx">
+      <DependentUpon>SMSManager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\TextMessage.resx">
+      <DependentUpon>TextMessage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\Upload.resx">
+      <DependentUpon>Upload.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Froms\Win_Users.resx">
+      <DependentUpon>Win_Users.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Theme\ClientCard.resx">
+      <DependentUpon>ClientCard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Toggle.resx">
+      <DependentUpon>Toggle.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.manifest" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="My Project\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="cylogo.ico" />
+    <Content Include="obfuscar.xml" />
+    <None Include="Resources\cylogo.ico" />
+    <None Include="Resources\MYSTUB.apk" />
+    <None Include="Resources\MYSTUBTEN.apk" />
+    <None Include="Resources\[CITYPNG.COM]HD Valorant Cypher Agent Player Character Hat PNG - 4000x2299.png" />
+    <None Include="Resources\notifi.png" />
+    <None Include="Resources\LOGS.txt" />
+    <None Include="Resources\LOGO.png" />
+    <None Include="Resources\LOGO.ico" />
+    <None Include="Resources\PikPng.com_phone-frame-png_962974.png" />
+    <None Include="Resources\CypherJector.exe" />
+    <None Include="Resources\LOGS" />
+    <None Include="Resources\New Text Document.txt" />
+    <None Include="Resources\hone-photo-frame-png-framesite-blog-phone-frame-11563258359lqhm4upaxi.png" />
+    <None Include="Resources\t.png" />
+    <None Include="Resources\f.png" />
+    <None Include="Resources\low.png" />
+    <None Include="Resources\min.png" />
+    <None Include="Resources\Abov_mid.png" />
+    <None Include="Resources\chrg.png" />
+    <None Include="Resources\_3g.png" />
+    <None Include="Resources\wifi.png" />
+    <None Include="Resources\full.png" />
+    <None Include="Resources\3g.png" />
+    <None Include="Resources\Abov-mid.png" />
+    <None Include="Resources\ON_LOCK.png" />
+    <None Include="Resources\OFF_LOCK.png" />
+    <None Include="Resources\OFF.png" />
+    <None Include="Resources\_on.png" />
+    <None Include="Resources\ON_LOCK1.png" />
+    <None Include="Resources\_on1.png" />
+    <None Include="Resources\target %281%29.png" />
+    <None Include="Resources\log.png" />
+    <None Include="Resources\downon1.png" />
+    <None Include="Resources\downon.png" />
+    <None Include="Resources\cloud.png" />
+    <None Include="Resources\ON.png" />
+    <None Include="Resources\mobileon-removebg-preview.png" />
+    <None Include="Resources\mobile-removebg-preview - Copy.png" />
+    <None Include="Resources\mobileoff-removebg-preview.png" />
+    <None Include="Resources\mobile-removebg-preview.png" />
+    <None Include="Resources\ScreenOn.png" />
+    <None Include="Resources\ScreenOff.png" />
+    <None Include="Resources\Key&amp;ScreenOn.png" />
+    <None Include="Resources\Key&amp;ScreenOff.png" />
+    <None Include="Resources\disconnected.png" />
+    <None Include="Resources\wating.jpg" />
+    <None Include="packages.config" />
+    <None Include="Resources\map.html" />
+    <None Include="Resources\wallpaper.txt" />
+    <None Include="Resources\max.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>if $(ConfigurationName) == Release  "$(Obfuscar)" ..\..\obfuscar.xml</PostBuildEvent>
+  </PropertyGroup>
+</Project>

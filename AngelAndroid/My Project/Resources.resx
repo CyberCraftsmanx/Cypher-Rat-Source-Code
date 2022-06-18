@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+     Version 2.0
+     The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+     Example:
+     ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+     There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+     Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don 
+    mimetype set.
+     The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+     Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+     mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+     mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+     mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="disconnected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\disconnected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="map" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\map.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1256</value>
+  </data>
+  <data name="wallpaper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wallpaper.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1256</value>
+  </data>
+  <data name="log" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\log.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="target__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\target (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Police" xml:space="preserve">
+    <value>By using the software , you Accepted to All Below : 
+1 : You are the responsible for All kind of uses in this software.
+2 : Only install (CypherRat Apk ) on phones you have permissions to.
+3 : Developer of these software is Not Responsible for Any kind of  illegal uses.
+4 : This Program is Build for Personal use Only.
+5 : Don 
+6: Make sure to get it from Telegram: t.me/evlfdev
+------------------------</value>
+  </data>
+  <data name="OFF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OFF.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OFF_LOCK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OFF_LOCK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ON_LOCK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ON_LOCK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chrg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chrg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="full" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="low" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\low.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="min" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\min.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wifi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wifi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DataP" xml:space="preserve">
+    <value>C:\ProgramData\cconfig</value>
+  </data>
+  <data name="TF" xml:space="preserve">
+    <value>ASDFsd-fSDFsdfc-EWV-WE-FWEfwefwefc-btyjGRSFHZ-djtargsjtkJrejtktuy</value>
+  </data>
+  <data name="Abov_mid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Abov_mid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3g" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3g.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MYSTUBTEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MYSTUBTEN.apk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SDK29" xml:space="preserve">
+    <value>                &lt;action android:name="android.intent.action.CHOOSER"/&gt;
+                &lt;action android:name="android.intent.action.MAIN"/&gt;
+                &lt;category android:name="android.intent.category.INFO"/&gt;
+                &lt;action android:name="android.intent.action.VIEW"/&gt;
+                &lt;category android:name="android.intent.category.DEFAULT"/&gt;
+                &lt;category android:name="com.android.internal.category.PLATLOGO"/&gt;
+                &lt;action android:name="android.intent.action.SEND"/&gt;
+                &lt;action android:name="android.intent.action.SEND_MULTIPLE"/&gt;
+                &lt;category android:name="android.intent.category.BROWSABLE"/&gt;
+                &lt;action android:name="android.intent.action.PACKAGE_REMOVED"/&gt;
+                &lt;action android:name="android.intent.action.PACKAGE_REPLACED"/&gt;
+                &lt;action android:name="android.intent.action.PACKAGE_ADDED"/&gt;
+                &lt;action android:name="android.intent.action.PACKAGE_CHANGED"/&gt;
+                &lt;action android:name="com.ui.OnAlarmReceiver.ACTION_WIDGET_RECEIVER"/&gt;
+                &lt;action android:name="com.android.vending.billing.InAppBillingService.COIN"/&gt;
+                &lt;action android:name="com.android.vending.billing.InAppBillingService.COIO"/&gt;
+                &lt;action android:name="com.android.vending.billing.InAppBillingService.LUCM"/&gt;
+                &lt;action android:name="com.android.vending.billing.InAppBillingService.PROX"/&gt;
+                &lt;action android:name="ir.cafebazaar.pardakht.InAppBillingService.BIND"/&gt;
+                &lt;action android:name="ru.aaaaaaax.installer"/&gt;
+                &lt;action android:name="com.nokia.payment.iapenabler.InAppBillingService.BIND"/&gt;
+                &lt;action android:name="com.android.vending.billing.InAppBillingService.INST"/&gt;</value>
+  </data>
+  <data name="HIDECODE" xml:space="preserve">
+    <value>&lt;action android:name="[HIDE_CODE]"/&gt;</value>
+  </data>
+  <data name="ARPolice" xml:space="preserve">
+    <value>باستخدام البرنامج ، فإنك توافق على الكل أدناه:
+1: أنت مسؤول عن جميع أنواع الاستخدامات في هذا البرنامج.
+2: قم بتثبيت (CypherRat  Apk) فقط على الهواتف التي لديك أذونات لها.
+3: مطور هذه البرامج غير مسؤول عن أي نوع من الاستخدامات غير القانونية.
+4: هذا البرنامج مصمم للاستخدام الشخصي فقط.
+5: لا تبيع هذا البرنامج ، إذا حاولت بيع هذا البرنامج ، فقد يفرض عليك المطور رسومًا.
+6:تاكد من التحميل من قناتنا على التلغرام : t.me/evlfdev
+------------------------</value>
+  </data>
+  <data name="PikPng_com_phone_frame_png_962974" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PikPng.com_phone-frame-png_962974.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MYSTUB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MYSTUB.apk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LOGS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LOGS.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="notifi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\notifi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOGO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\[CITYPNG.COM]HD Valorant Cypher Agent Player Character Hat PNG - 4000x2299.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="max" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cylogo.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
